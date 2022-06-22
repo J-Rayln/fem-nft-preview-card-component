@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/J-Rayln/fem-nft-preview-card-component](https://github.com/J-Rayln/fem-nft-preview-card-component)
+- Live Site URL: [https://j-rayln.github.io/fem-nft-preview-card-component/](https://j-rayln.github.io/fem-nft-preview-card-component/)
 
 ## My process
 
@@ -42,6 +42,7 @@ Users should be able to:
 - Mobile-first workflow
 - SASS/SCSS
 - BEM
+- Gulp
 
 ### What I learned
 

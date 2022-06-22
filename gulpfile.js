@@ -8,7 +8,7 @@ const browsersync = require('browser-sync').create();
 function scssTask(){
     return src('src/scss/main.scss', { sourcemaps: true })
       .pipe(sass())
-      // .pipe(postcss([cssnano()]))
+      .pipe(postcss([cssnano()]))
       .pipe(dest('css', { sourcemaps: '.'}));
 }
 
