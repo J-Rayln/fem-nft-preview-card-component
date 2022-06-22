@@ -1,0 +1,31 @@
+@use '../abstracts/variables' as v;
+
+body {
+    background-color: var(--clr-neu-blue-main);
+    color: var(--clr-pri-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--ff-body);
+    font-size: var(--fs-text);
+    font-weight: var(--fw-lt);
+  }
+
+  a {
+    color: var(--clr-neu-white);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--clr-pri-cyan);
+    }
+  }
+
+  h1 {
+    color: var(--clr-neu-white);
+    font-size: var(--fs-h1);
+    margin: 1.5rem 0;
+  }
+
+  /* helper classes */

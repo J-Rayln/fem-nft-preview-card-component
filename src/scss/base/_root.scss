@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as v;
+
+:root {
+    /* colors */
+    @each $cat, $shades in v.$colors {
+        @each $shade, $value in $shades {
+            --clr-#{$cat}-#{$shade}: #{$value};
+        }
+    }
+
+    /* typography */
+    --ff-body: #{v.$ff-stack};
+    --fs-text: #{v.$fs-text};
+    --fs-h1: #{v.$fs-h1};
+    
+    // font weights
+    @each $weight, $value in v.$fw {
+        --fw-#{$weight}: #{$value};
+    }
+
+}
